@@ -1,0 +1,1 @@
+enum RecordingStatus { recording, processing, transcribed, summarized, failed }
