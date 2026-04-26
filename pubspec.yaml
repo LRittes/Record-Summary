@@ -39,6 +39,9 @@ dependencies:
   path_provider: ^2.1.0
   path: ^1.9.0
 
+  http: ^1.2.0
+  uuid: ^4.3.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -51,6 +54,8 @@ dev_dependencies:
   flutter_lints: ^6.0.0
   drift_dev: ^2.20.0
   build_runner: ">=2.4.0 <2.14.0"
+
+  # http: ^1.2.0  # já no dependencies, mas o MockClient está no package http
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
